@@ -1,0 +1,15 @@
+[package]
+name = "rust-wasm"
+version = "0.1.0"
+edition = "2024"
+authors = ["nguyenduyan28 <nguyenduyan28@gmail.com>"]
+description = "A sample project with wasm-pack"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/nguyenduyan28/wasm-example"
+
+[dependencies]
+wasm-bindgen = "0.2"
+
+[lib]
+crate-type = ["cdylib"]
+
